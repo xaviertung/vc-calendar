@@ -4,7 +4,7 @@
   "description": "基于Vue的日历组件",
   "main": "lib/vc-calendar.umd.min.js",
   "keyword": "vue calendar",
-  "private": false,
+  "private": true,
   "author": "xaviertung",
   "repository": {
     "type": "git",
