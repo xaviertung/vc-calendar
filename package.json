@@ -1,10 +1,19 @@
 {
-  "name": "vc-calendar",
+  "name": "@xaviertung/vc-calendar",
   "version": "0.1.0",
-  "private": true,
+  "description": "基于Vue的日历组件",
+  "main": "lib/vc-calendar.umd.min.js",
+  "keyword": "vue calendar",
+  "private": false,
+  "author": "xaviertung",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xaviertung/vc-calendar"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name vc-calendar --dest lib src/components/index.js",
     "lint": "vue-cli-service lint",
     "test:e2e": "vue-cli-service test:e2e",
     "test:unit": "vue-cli-service test:unit"
