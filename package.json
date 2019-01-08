@@ -1,6 +1,6 @@
 {
   "name": "@xaviertung/vc-calendar",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "基于Vue的日历组件",
   "main": "lib/vc-calendar.umd.min.js",
   "keyword": "vue calendar",
